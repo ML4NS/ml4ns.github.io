@@ -110,11 +110,11 @@ footer {
 @media (max-width: 1200px) {
 
 	.headline>.container>h1 {
-		font-size: 140px;
+		font-size: 75px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 63px;
+		font-size: 60px;
 	}
 
 	.featurette-divider {
@@ -138,11 +138,11 @@ footer {
 @media (max-width: 991px) {
 
 	.headline>.container>h1 {
-		font-size: 105px;
+		font-size: 50px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	.featurette-divider {
@@ -187,7 +187,7 @@ footer {
 @media (max-width: 668px) {
 
 	.headline>.container>h1 {
-		font-size: 70px;
+		font-size: 40px;
 	}
 
 	.headline>.container>h2 {
@@ -203,15 +203,15 @@ footer {
 @media (max-width: 640px) {
 
 	.headline {
-		padding: 75px 0 25px 0;
+		padding: 25px 0 25px 0;
 	}
 
 	.headline>.container>h1 {
-		font-size: 60px;
+		font-size: 40px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 30px;
+		font-size: 32px;
 	}
 
 }
