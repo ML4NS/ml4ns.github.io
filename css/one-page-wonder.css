@@ -73,13 +73,13 @@ body {
 	flex-wrap: wrap;
 	display: inline-flex;
 	text-align: center;
-	gap: 6px;
+	gap: 0px;
 }
 
 .staff-image-list>li {
 	width: 12%;
 	margin: 0 1em;
-	min-width: 75px;
+	min-width: 50px;
 	text-align: center;
 }
 
@@ -89,8 +89,8 @@ body {
 	border-radius: 40%;
 	max-height: 150px;
 	max-width: 150px;
-	min-width: 75px;
-	min-height: 75px;
+	min-width: 50px;
+	min-height: 50px;
 }
 
 .staff-names {
@@ -98,9 +98,9 @@ body {
 	align-items: center;
 	text-align: center;
 	margin-top: 0.5em;
-	font-size: medium;
+	font-size: 16px;
 	max-width: 150px;
-	min-width: 75px;
+	min-width: 50px;
 }
 
 .featurette-heading {
@@ -221,6 +221,9 @@ footer {
 		margin: 0 15px;
 	}
 
+	.staff-names {
+		font-size: 14px;
+	}
 
 }
 
@@ -263,7 +266,7 @@ footer {
 	}
 
 	.staff-names {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 }
@@ -293,6 +296,9 @@ footer {
 		font-size: 16px;
 	}
 
+	.staff-names {
+		font-size: 10px;
+	}
 
 }
 
@@ -313,5 +319,8 @@ footer {
 		margin-bottom: 10px;
 	}
 
+	.staff-names {
+		font-size: 10px;
+	}
 
 }
