@@ -76,6 +76,7 @@ body {
 .staff-image-list>li {
 	width: 12%;
 	margin: 0 1em;
+	min-width: 50px;
 }
 
 .staff-image {
