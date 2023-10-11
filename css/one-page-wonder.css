@@ -1,0 +1,239 @@
+body {
+	margin-top: 50px;
+	/* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.header-image {
+	background-color: var(--title-background-color);
+	/* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+	background-position: center;
+	background-size: cover;
+	padding-top: 2.5%;
+	height: auto;
+	padding-bottom: 2.5%;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.headline {
+	padding: 10px 0;
+}
+
+.headline>.container>h1 {
+	font-size: 86px;
+	background: var(--title-text-background-color);
+}
+
+.headline>.container>h2 {
+	font-size: 56px;
+	background: var(--title-text-background-color);
+}
+
+.featurette-divider {
+	margin: 30px 0;
+}
+
+.featurette {
+	overflow: hidden;
+}
+
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+	margin-left: 40px;
+	width: 25%;
+}
+
+
+.staff-image-list {
+	width: 95%;
+	list-style-type: none;
+	margin-top: 1em;
+	display: inline-flex;
+	box-sizing: content-box;
+	flex-wrap: wrap;
+	display: flex;
+	text-align: center;
+	gap: 6px
+}
+
+.staff-image-list>li {
+	width: 12%;
+	margin: 0 1em;
+}
+
+.staff-image {
+	align-items: center;
+	width: 100%;
+	border-radius: 40%;
+	max-height: 15%;
+}
+
+.staff-names {
+	text-align: center;
+	margin-top: 0.5em;
+	font-size: medium;
+}
+
+.featurette-heading {
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+.foot-text {
+	font-size: 14px;
+}
+
+.github-icon-container {
+	word-wrap: nowrap;
+	display: inline-block;
+}
+
+.github-icon {
+	content: var(--github-icon-path);
+	height: 1em;
+	width: 1em;
+	display: inline-block;
+	align-items: center;
+}
+
+/* RESPONSIVE CSS */
+
+@media (max-width: 1200px) {
+
+	.headline>.container>h1 {
+		font-size: 140px;
+	}
+
+	.headline>.container>h2 {
+		font-size: 63px;
+	}
+
+	.featurette-divider {
+		margin: 50px 0;
+	}
+
+	.featurette-image.pull-left {
+		margin-right: 20px;
+	}
+
+	.featurette-image.pull-right {
+		margin-left: 20px;
+	}
+
+	.featurette-heading {
+		font-size: 35px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.headline>.container>h1 {
+		font-size: 105px;
+	}
+
+	.headline>.container>h2 {
+		font-size: 50px;
+	}
+
+	.featurette-divider {
+		margin: 40px 0;
+	}
+
+	.featurette-image {
+		max-width: 50%;
+	}
+
+	.featurette-image.pull-left {
+		margin-right: 10px;
+	}
+
+	.featurette-image.pull-right {
+		margin-left: 10px;
+	}
+
+	.featurette-heading {
+		font-size: 30px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.container {
+		margin: 0 15px;
+	}
+
+	.featurette-divider {
+		margin: 40px 0;
+	}
+
+	.featurette-heading {
+		font-size: 25px;
+	}
+
+}
+
+
+@media (max-width: 668px) {
+
+	.headline>.container>h1 {
+		font-size: 70px;
+	}
+
+	.headline>.container>h2 {
+		font-size: 32px;
+	}
+
+	.featurette-divider {
+		margin: 30px 0;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	.headline {
+		padding: 75px 0 25px 0;
+	}
+
+	.headline>.container>h1 {
+		font-size: 60px;
+	}
+
+	.headline>.container>h2 {
+		font-size: 30px;
+	}
+
+}
+
+@media (max-width: 375px) {
+
+	.featurette-divider {
+		margin: 10px 0;
+	}
+
+	.featurette-image {
+		max-width: 100%;
+	}
+
+	.featurette-image.pull-left {
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.featurette-image.pull-right {
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+}
