@@ -10,7 +10,7 @@
 
 :root {
   --title-text-color: #ffffff;
-  --title-text-background-color: #003E74;
+  --title-text-background-color: #003E7400;
   --title-background-color: #002147;
   --little-title-text-color: #0091D4;
   --main-text-color: #002147;
@@ -28,7 +28,7 @@
 
 [data-theme="dark"] {
   --title-text-color: #ffffff;
-  --title-text-background-color: #002147;
+  --title-text-background-color: #00214700;
   --title-background-color: #003E74;
   --little-title-text-color: #0091D4;
   --main-text-color: #ffffff;
