@@ -103,6 +103,14 @@ body {
 	margin-top: 10px;
 }
 
+.featurette>h4,
+.featurette>p,
+.featurette>ul,
+ul,
+p {
+	font-size: 18px;
+}
+
 
 .github-icon-container {
 	word-wrap: nowrap;
@@ -140,10 +148,6 @@ footer {
 		font-size: 18px;
 	}
 
-	.featurette-divider {
-		margin: 50px 0;
-	}
-
 	.featurette-image.pull-left {
 		margin-right: 20px;
 	}
@@ -153,8 +157,17 @@ footer {
 	}
 
 	.featurette-heading {
-		font-size: 35px;
+		font-size: 27px;
 	}
+
+	.featurette>h4,
+	.featurette>ul,
+	.featurette>p,
+	ul,
+	p {
+		font-size: 16px;
+	}
+
 
 }
 
@@ -166,10 +179,6 @@ footer {
 
 	.headline>.container>h2 {
 		font-size: 14px;
-	}
-
-	.featurette-divider {
-		margin: 40px 0;
 	}
 
 	.featurette-image {
@@ -184,8 +193,17 @@ footer {
 		margin-left: 10px;
 	}
 
+
 	.featurette-heading {
-		font-size: 30px;
+		font-size: 21px;
+	}
+
+	.featurette>h4,
+	.featurette>p,
+	.featurette>ul,
+	ul,
+	p {
+		font-size: 15px;
 	}
 
 }
@@ -196,13 +214,6 @@ footer {
 		margin: 0 15px;
 	}
 
-	.featurette-divider {
-		margin: 40px 0;
-	}
-
-	.featurette-heading {
-		font-size: 25px;
-	}
 
 }
 
@@ -217,13 +228,23 @@ footer {
 		font-size: 12px;
 	}
 
-	.featurette-divider {
-		margin: 30px 0;
-	}
-
 	.staff-names {
 		font-size: 12px;
 	}
+
+
+	.featurette-heading {
+		font-size: 21px;
+	}
+
+	.featurette>h4,
+	.featurette>p,
+	.featurette>ul,
+	ul,
+	p {
+		font-size: 15px;
+	}
+
 
 }
 
@@ -250,14 +271,24 @@ footer {
 		font-size: 12px;
 	}
 
+
+	.featurette-heading {
+		font-size: 18px;
+	}
+
+	.featurette>h4,
+	.featurette>p,
+	.featurette>ul,
+	ul,
+	p {
+		font-size: 12px;
+	}
+
+
 }
 
 @media (max-width: 375px) {
 
-
-	.featurette-divider {
-		margin: 10px 0;
-	}
 
 	.featurette-image {
 		max-width: 100%;

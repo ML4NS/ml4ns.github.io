@@ -251,10 +251,6 @@ table {
 }
 
 
-li {
-  font-size: var(--text-font-size);
-}
-
 notebook-link {
   font-size: var(--text-font-size);
 }
