@@ -134,7 +134,40 @@ p {
 	align-items: center;
 }
 
+.schedule-container {
+	margin-top: 2em;
+	width: 100%;
+	overflow-x: auto;
+}
 
+.schedule-table {
+	border: 0px solid black;
+	min-width: 100%;
+}
+
+.schedule-table>table,
+td,
+th,
+tr {
+	border: 2px solid var(--main-text-color);
+	padding: 0.25em;
+	text-align: center;
+	font-size: 16px;
+}
+
+.schedule-table>table,
+th {
+	background-color: var(--little-title-text-color);
+	color: var(--nav-bar-text-color);
+	border-color: var(--main-text-color);
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.schedule-table>table,
+td:nth-child(even) {
+	background-color: var(--table-tile-colour);
+}
 
 footer {
 	margin: 50px 0;
@@ -229,6 +262,14 @@ footer {
 		font-size: 14px;
 	}
 
+
+	.schedule-table>table,
+	td,
+	th,
+	tr {
+		font-size: 14px;
+	}
+
 }
 
 
@@ -277,8 +318,27 @@ footer {
 		width: 18%;
 	}
 
+
+	.schedule-table>table,
+	td,
+	th,
+	tr {
+		font-size: 11px;
+	}
+
 }
 
+@media (max-width: 540px) {
+
+
+	.schedule-table>table,
+	td,
+	th,
+	tr {
+		font-size: 10px;
+	}
+
+}
 
 @media (max-width: 460px) {
 
@@ -312,6 +372,27 @@ footer {
 		width: 20%;
 	}
 
+
+	.schedule-table>table,
+	td,
+	th,
+	tr {
+		font-size: 10px;
+	}
+
+}
+
+
+@media (max-width: 400px) {
+
+
+	.schedule-table>table,
+	td,
+	th,
+	tr {
+		font-size: 9px;
+	}
+
 }
 
 @media (max-width: 375px) {
@@ -338,5 +419,6 @@ footer {
 	.staff-image-list>li {
 		width: 18%;
 	}
+
 
 }
