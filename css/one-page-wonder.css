@@ -142,7 +142,7 @@ p {
 
 .schedule-table {
 	border: 0px solid black;
-	min-width: 100%;
+	min-width: 99%;
 }
 
 .schedule-table>table,
@@ -150,6 +150,7 @@ td,
 th,
 tr {
 	border: 2px solid var(--main-text-color);
+	border-right: 2px solid var(--main-text-color);
 	padding: 0.25em;
 	text-align: center;
 	font-size: 16px;
@@ -165,9 +166,15 @@ th {
 }
 
 .schedule-table>table,
+th:last-child {
+	border-right: 2px solid var(--main-text-color);
+}
+
+.schedule-table>table,
 td:nth-child(even) {
 	background-color: var(--table-tile-colour);
 }
+
 
 footer {
 	margin: 50px 0;

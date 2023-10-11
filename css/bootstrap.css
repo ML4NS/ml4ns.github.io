@@ -22,7 +22,7 @@
   --font-family-titles: Arial;
   --font-family-text: Arial;
   --background-color: #ffffff;
-  --table-tile-colour: #0091D415;
+  --table-tile-colour: #0091D425;
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark.svg");
 }
@@ -41,7 +41,7 @@
   --font-family-titles: Arial;
   --font-family-text: Arial;
   --background-color: #333333;
-  --table-tile-colour: #0091D415;
+  --table-tile-colour: #0091D475;
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark-white.svg");
 }
