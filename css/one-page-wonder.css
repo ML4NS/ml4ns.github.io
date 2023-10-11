@@ -175,6 +175,12 @@ td:nth-child(even) {
 	background-color: var(--table-tile-colour);
 }
 
+caption {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
 
 footer {
 	margin: 50px 0;
@@ -277,6 +283,11 @@ footer {
 		font-size: 14px;
 	}
 
+
+	caption {
+		font-size: 14px;
+	}
+
 }
 
 
@@ -333,6 +344,11 @@ footer {
 		font-size: 11px;
 	}
 
+
+	caption {
+		font-size: 11px;
+	}
+
 }
 
 @media (max-width: 540px) {
@@ -342,6 +358,12 @@ footer {
 	td,
 	th,
 	tr {
+		font-size: 10px;
+	}
+
+
+
+	caption {
 		font-size: 10px;
 	}
 
@@ -387,6 +409,11 @@ footer {
 		font-size: 10px;
 	}
 
+
+	caption {
+		font-size: 10px;
+	}
+
 }
 
 
@@ -397,6 +424,11 @@ footer {
 	td,
 	th,
 	tr {
+		font-size: 9px;
+	}
+
+
+	caption {
 		font-size: 9px;
 	}
 
