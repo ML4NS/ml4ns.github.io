@@ -91,6 +91,8 @@ body {
 	max-width: 150px;
 	min-width: 50px;
 	min-height: 50px;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .staff-names {
@@ -101,6 +103,8 @@ body {
 	font-size: 16px;
 	max-width: 150px;
 	min-width: 50px;
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .featurette-heading {
@@ -269,6 +273,10 @@ footer {
 		font-size: 11px;
 	}
 
+	.staff-image-list>li {
+		width: 18%;
+	}
+
 }
 
 
@@ -300,6 +308,10 @@ footer {
 		font-size: 10px;
 	}
 
+	.staff-image-list>li {
+		width: 20%;
+	}
+
 }
 
 @media (max-width: 375px) {
@@ -321,6 +333,10 @@ footer {
 
 	.staff-names {
 		font-size: 10px;
+	}
+
+	.staff-image-list>li {
+		width: 18%;
 	}
 
 }
