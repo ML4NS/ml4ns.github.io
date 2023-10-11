@@ -256,6 +256,15 @@ notebook-link {
 }
 
 
+ul {
+  padding-left: 1.5em;
+}
+
+li {
+  padding-bottom: 0.25em;
+}
+
+
 @media print {
   * {
     color: #000 !important;

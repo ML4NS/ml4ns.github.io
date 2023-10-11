@@ -45,6 +45,8 @@ body {
 
 .featurette {
 	overflow: hidden;
+	justify-content: center;
+
 }
 
 .featurette-image.pull-left {
@@ -56,27 +58,29 @@ body {
 	width: 25%;
 }
 
+.staff-image-container {
+	display: flex;
+	text-align: center;
+}
 
 .staff-image-list {
 	width: 100%;
 	list-style-type: none;
 	margin-top: 1em;
-	margin-left: 0;
-	padding-right: 75px;
-	margin-right: 75px;
-	padding-left: 0;
-	display: inline-flex;
+	margin-right: auto;
+	margin-left: auto;
 	box-sizing: content-box;
 	flex-wrap: wrap;
-	display: flex;
+	display: inline-flex;
 	text-align: center;
-	gap: 6px
+	gap: 6px;
 }
 
 .staff-image-list>li {
 	width: 12%;
 	margin: 0 1em;
-	min-width: 50px;
+	min-width: 75px;
+	text-align: center;
 }
 
 .staff-image {
@@ -164,6 +168,7 @@ footer {
 	.featurette>h4,
 	.featurette>ul,
 	.featurette>p,
+	h4,
 	ul,
 	p {
 		font-size: 16px;
@@ -202,9 +207,10 @@ footer {
 	.featurette>h4,
 	.featurette>p,
 	.featurette>ul,
+	h4,
 	ul,
 	p {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 }
@@ -241,9 +247,10 @@ footer {
 	.featurette>h4,
 	.featurette>p,
 	.featurette>ul,
+	h4,
 	ul,
 	p {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 
@@ -281,8 +288,9 @@ footer {
 	.featurette>p,
 	.featurette>ul,
 	ul,
+	h4,
 	p {
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 
