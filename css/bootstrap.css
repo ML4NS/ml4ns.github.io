@@ -80,6 +80,7 @@ html {
   font-family: var(--font-family-text);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {

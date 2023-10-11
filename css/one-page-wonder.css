@@ -22,20 +22,25 @@ body {
 }
 
 .headline>.container>h1 {
-	font-size: 60px;
+	font-size: 40px;
 	background: var(--title-text-background-color);
 	text-align: left;
+	margin-bottom: 5px;
 }
 
 .headline>.container>h2 {
-	font-size: 60px;
+	font-size: 20px;
 	background: var(--title-text-background-color);
 	text-align: left;
 	font-style: italic;
+	margin-top: 5px;
 }
 
 .featurette-divider {
-	margin: 30px 0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .featurette {
@@ -98,13 +103,6 @@ body {
 	margin-top: 10px;
 }
 
-footer {
-	margin: 50px 0;
-}
-
-.foot-text {
-	font-size: 14px;
-}
 
 .github-icon-container {
 	word-wrap: nowrap;
@@ -119,16 +117,27 @@ footer {
 	align-items: center;
 }
 
+
+
+footer {
+	margin: 50px 0;
+}
+
+.foot-text {
+	font-size: 14px;
+}
+
+
 /* RESPONSIVE CSS */
 
 @media (max-width: 1200px) {
 
 	.headline>.container>h1 {
-		font-size: 50px;
+		font-size: 36px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 50px;
+		font-size: 18px;
 	}
 
 	.featurette-divider {
@@ -152,11 +161,11 @@ footer {
 @media (max-width: 991px) {
 
 	.headline>.container>h1 {
-		font-size: 32px;
+		font-size: 28px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 32px;
+		font-size: 14px;
 	}
 
 	.featurette-divider {
@@ -201,11 +210,11 @@ footer {
 @media (max-width: 668px) {
 
 	.headline>.container>h1 {
-		font-size: 32px;
+		font-size: 24px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 32px;
+		font-size: 12px;
 	}
 
 	.featurette-divider {
@@ -224,14 +233,6 @@ footer {
 		padding: 25px 0 25px 0;
 	}
 
-	.headline>.container>h1 {
-		font-size: 28px;
-	}
-
-	.headline>.container>h2 {
-		font-size: 28px;
-	}
-
 	.staff-names {
 		font-size: 12px;
 	}
@@ -242,11 +243,11 @@ footer {
 @media (max-width: 460px) {
 
 	.headline>.container>h1 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.headline>.container>h2 {
-		font-size: 28px;
+		font-size: 12px;
 	}
 
 }
