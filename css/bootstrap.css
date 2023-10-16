@@ -2897,37 +2897,6 @@ input[type="button"].btn-block {
   src: url(../fonts/glyphicons-halflings-regula.ttf);
 }
 
-@font-face {
-  font-family: PacificoRegular;
-  src: url(../fonts/Pacifico-Regular.ttf);
-}
-
-@font-face {
-  font-family: YoungSerifRegular;
-  src: url(../fonts/YoungSerif-Regular.ttf);
-}
-
-@font-face {
-  font-family: DancingScript;
-  src: url(../fonts/DancingScript.ttf);
-}
-
-@font-face {
-  font-family: SatisfyRegular;
-  src: url(../fonts/SatisfyRegular.ttf);
-}
-
-.pacifico {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: PacificoRegular;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .glyphicon {
   position: relative;
