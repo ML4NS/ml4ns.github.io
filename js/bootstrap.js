@@ -2114,8 +2114,16 @@ for (var i = 0; i < anchors.length; i++) {
   colab_img.alt = "Open In Colab";
   colab_link.appendChild(colab_img);
   anchors[i].parentNode.insertBefore(colab_link, anchors[i].nextSibling);
-}
+};
+
+
+$('.navbar-collapse a').click(function () {
+  if (window.innerWidth < 767)
+    $('.navbar-collapse').collapse('hide');
+});
+
+
 
 window.onload = function () {
   /* onload code */
-}
+};
