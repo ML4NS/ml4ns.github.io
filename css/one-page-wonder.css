@@ -36,6 +36,17 @@ body {
 	margin-top: 5px;
 }
 
+.brand-logo-container {
+	width: 100%;
+	text-align: left;
+	margin-top: 1em;
+	margin-left: 0.25%;
+}
+
+.brand-logo-image {
+	height: 2em;
+}
+
 .featurette-divider {
 	margin-bottom: 50px;
 	margin-top: 50px;
@@ -288,6 +299,7 @@ footer {
 		font-size: 14px;
 	}
 
+
 }
 
 
@@ -348,6 +360,11 @@ footer {
 	caption {
 		font-size: 11px;
 	}
+
+	.brand-logo-image {
+		height: 1.5em;
+	}
+
 
 }
 
