@@ -2016,6 +2016,13 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
 
 
 
+
+
+/**
+* Dark theme to change on toggle
+*/
+
+
 // https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript/
 
 /**
@@ -2090,8 +2097,6 @@ toggleSwitch1.addEventListener("change", (event) => {
   currentThemeSetting = newTheme;
 });
 
-
-
 toggleSwitch2.addEventListener("change", (event) => {
   const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
 
@@ -2103,6 +2108,10 @@ toggleSwitch2.addEventListener("change", (event) => {
 });
 
 
+
+/**
+* Changes notebook class elements to include link to open in colab.
+*/
 var anchors = document.getElementsByClassName("notebook-link");
 
 for (var i = 0; i < anchors.length; i++) {
@@ -2117,6 +2126,11 @@ for (var i = 0; i < anchors.length; i++) {
 };
 
 
+
+
+/**
+* Closes the navbar on click of an item.
+*/
 $('.navbar-collapse a').click(function () {
   if (window.innerWidth < 767)
     $('.navbar-collapse').collapse('hide');
