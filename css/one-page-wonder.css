@@ -390,6 +390,19 @@ footer {
 		gap: 1%
 	}
 
+	.staff-image-list>li {
+		min-width: 30%;
+	}
+
+	.staff-image {
+		min-width: 30%;
+		min-height: 30%;
+	}
+
+	.staff-names {
+		min-width: 30%;
+	}
+
 
 }
 
