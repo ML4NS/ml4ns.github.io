@@ -298,7 +298,7 @@ footer {
 
 
 	caption {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 
@@ -333,6 +333,10 @@ footer {
 		font-size: 16px;
 	}
 
+	caption {
+		font-size: 16px;
+	}
+
 
 }
 
@@ -359,9 +363,6 @@ footer {
 	}
 
 
-	caption {
-		font-size: 11px;
-	}
 
 	.brand-logo-image {
 		height: 1.5em;
@@ -381,10 +382,6 @@ footer {
 	}
 
 
-
-	caption {
-		font-size: 10px;
-	}
 
 	.staff-image-list {
 		gap: 1%
@@ -430,6 +427,10 @@ footer {
 		font-size: 16px;
 	}
 
+	caption {
+		font-size: 16px;
+	}
+
 	.staff-names {
 		font-size: 10px;
 	}
@@ -447,9 +448,6 @@ footer {
 	}
 
 
-	caption {
-		font-size: 10px;
-	}
 
 }
 
@@ -464,10 +462,6 @@ footer {
 		font-size: 9px;
 	}
 
-
-	caption {
-		font-size: 9px;
-	}
 
 }
 
