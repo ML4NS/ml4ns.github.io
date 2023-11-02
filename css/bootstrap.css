@@ -23,6 +23,8 @@
   --font-family-text: Arial;
   --background-color: #ffffff;
   --table-tile-colour: #0091D425;
+  --text-link-colour: #428bca;
+  --text-link-hover-focus-colour: #2a6496;
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark.svg");
 }
@@ -42,6 +44,8 @@
   --font-family-text: Arial;
   --background-color: #333333;
   --table-tile-colour: #0091D475;
+  --text-link-colour: #0091D4;
+  --text-link-hover-focus-colour: #428bca;
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark-white.svg");
 }
@@ -392,13 +396,13 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: var(--text-link-colour);
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: var(--text-link-hover-focus-colour);
   text-decoration: underline;
 }
 
