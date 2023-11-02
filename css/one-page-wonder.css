@@ -184,7 +184,7 @@ th:last-child {
 }
 
 .schedule-table>table,
-td:nth-child(even) {
+tr:nth-child(odd) {
 	background-color: var(--table-tile-colour);
 }
 
