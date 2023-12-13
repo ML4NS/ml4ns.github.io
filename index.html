@@ -743,6 +743,64 @@
 
 
 
+    <hr class="featurette-divider" id="conda_env">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">Setting Up Your Conda Environment</h3>
+      <div>
+
+        <p>The following are the steps to set up your environment:</p>
+        <ol>
+          <li>Install Miniconda <a href="https://docs.conda.io/projects/miniconda/en/latest/" target="_blank">here</a>.
+          </li>
+          <li>On Windows open Anaconda Prompt and on Mac/Linux open Terminal.</li>
+          <li>To create an environment for the course, run:
+            <pre><code class="lang-shell">conda create -n ml4ns python=<span class="hljs-number">3.11.5</span>
+        </code></pre>
+          </li>
+          <li>Download the GitHub repo and place the <code>requirements.txt</code> file in your root directory.</li>
+          <li>Activate your environment:
+            <pre><code class="lang-shell">conda <span class="hljs-built_in">activate</span> ml4ns
+        </code></pre>
+          </li>
+          <li>Install the requirements:
+            <pre><code class="lang-shell">pip <span class="hljs-keyword">install</span> -r requirements.txt
+        </code></pre>
+          </li>
+          <li>If you're on Mac or Windows (without a GPU), you can install Pytorch using the below. If you have a
+            GPU, you can install Pytorch using the command on the <a href="https://pytorch.org/" target="_blank">Pytorch
+              website</a>.
+            <pre><code class="lang-shell">pip3 <span class="hljs-keyword">install</span> torch torchvision torchaudio
+        </code></pre>
+          </li>
+          <li>Install Transformers using:
+            <pre><code class="lang-shell">pip <span class="hljs-keyword">install</span> transformers
+        </code></pre>
+          </li>
+          <li><em>Recommended</em>: Install VScode <a href="https://code.visualstudio.com/download"
+              target="_blank">here</a>.</li>
+          <li>Open VSCode and open the Jupyter Notebook files or open Jupyter Lab using:
+            <pre><code class="lang-shell"><span class="hljs-attribute">jupyter lab</span>
+        </code></pre>
+          </li>
+          <li>If you are using VSCode, you need to install the Jupyter Notebook extension.</li>
+          <li>In VScode, select the Python interpreter for your environment (top right, usually!).</li>
+        </ol>
+        <p><br /></p>
+        <p>Each session:</p>
+        <ul>
+          <li>
+            <p>If you're using Jupyter Lab, every time you go to work on this project you'll need to activate
+              your environment by running <code>conda activate ml4ns</code> using either the Terminal (Mac) or Anaconda
+              Prompt (Windows). Then you may enter the command <code>jupyter lab</code> to open Jupyter Lab.</p>
+          </li>
+          <li>
+            <p>If you're using VSCode, you'll need to select the Python for each new file you open.</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
 
     <hr class=" featurette-divider" id="contact">
 

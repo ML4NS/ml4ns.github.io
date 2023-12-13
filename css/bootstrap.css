@@ -844,7 +844,6 @@ samp {
 
 code {
   padding: 2px 4px;
-  font-size: 90%;
   color: #c7254e;
   white-space: nowrap;
   background-color: #f9f2f4;
@@ -855,13 +854,10 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 1.428571429;
   color: var(--main-text-color);
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f5f5f5;
-  border: 1px solid #cccccc;
   border-radius: 4px;
 }
 
@@ -869,7 +865,7 @@ pre code {
   padding: 0;
   font-size: inherit;
   color: inherit;
-  white-space: pre-wrap;
+  white-space: wrap;
   background-color: transparent;
   border-radius: 0;
 }

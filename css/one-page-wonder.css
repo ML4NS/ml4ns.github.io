@@ -128,11 +128,19 @@ body {
 .featurette>h4,
 .featurette>p,
 .featurette>ul,
+.featurette>ol,
 ul,
+ol,
 p {
 	font-size: 18px;
 }
 
+
+.lang-shell {
+	font-family: monospace;
+	margin: 0 0;
+	padding: 0 0;
+}
 
 .github-icon-container {
 	word-wrap: nowrap;
@@ -230,9 +238,11 @@ footer {
 
 	.featurette>h4,
 	.featurette>ul,
+	.featurette>ol,
 	.featurette>p,
 	h4,
 	ul,
+	ol,
 	p {
 		font-size: 16px;
 	}
@@ -270,8 +280,10 @@ footer {
 	.featurette>h4,
 	.featurette>p,
 	.featurette>ul,
+	.featurette>ol,
 	h4,
 	ul,
+	ol,
 	p {
 		font-size: 16px;
 	}
@@ -327,8 +339,10 @@ footer {
 	.featurette>h4,
 	.featurette>p,
 	.featurette>ul,
+	.featurette>ol,
 	h4,
 	ul,
+	ol,
 	p {
 		font-size: 16px;
 	}
@@ -421,7 +435,9 @@ footer {
 	.featurette>h4,
 	.featurette>p,
 	.featurette>ul,
+	.featurette>ol,
 	ul,
+	ol,
 	h4,
 	p {
 		font-size: 16px;
