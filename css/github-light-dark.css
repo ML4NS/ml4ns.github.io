@@ -21,7 +21,7 @@ code.hljs {
       */
 .hljs {
     color: #24292e;
-    background: #ffffff
+    background: var(--some-text-background-color);
 }
 
 .hljs-doctag,
@@ -127,7 +127,7 @@ code.hljs {
 
 [data-theme="dark"] .hljs {
     color: #ffffff;
-    background: #0d1117
+    background: var(--some-text-background-color);
 }
 
 [data-theme="dark"] .hljs-doctag,

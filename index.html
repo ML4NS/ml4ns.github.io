@@ -826,6 +826,36 @@
 
 
 
+    <hr class="featurette-divider" id="demo">
+
+    <div class="featurette">
+      <h3 class="featurette-heading">A Machine Learning Demo</h3>
+      <p>This is a simple demo that shows you how cool machine learning is! This model is running in your browser and
+        will predict the number of stars from a film review. Try it out!</p>
+
+      <!-- for user input -->
+      <form id="myForm">
+        <textarea name="text" cols="75" rows="10" wrap="soft" id="inputText"
+          class="model_input">The Shawshank Redemption is a true masterpiece of cinema, a movie that deserves every bit of its status as one of the greatest films ever made. From its stellar performances to its unforgettable storytelling, everything about this film is a testament to the power of great filmmaking.</textarea>
+        <div><button type="submit" id="submitButton">Analyse!</button></div>
+      </form>
+
+
+      <div id="progress" style="display: none;">
+        <div>
+          <p><strong>Loading model files...</strong></p>
+        </div>
+        <div id="progress-bars"></div>
+      </div>
+
+      <!-- to show the result -->
+      <p id="model_output"></p>
+
+    </div>
+
+
+
+
     <hr class="featurette-divider" id="affiliation">
 
     <div class="featurette">
@@ -881,6 +911,7 @@
   <link href="css/github-light-dark.css" rel="stylesheet">
   <script src="js/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
+  <script src="js/model_demo.js" type="module"></script>
 
 </body>
 

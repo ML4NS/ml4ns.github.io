@@ -120,6 +120,34 @@ body {
 	margin-left: 0;
 }
 
+
+button {
+	background-color: var(--little-title-text-color);
+	border: none;
+	color: white;
+	padding: 0.25em 0.25em;
+	margin: 0.25em 0.25em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 0.5em;
+}
+
+textarea {
+	background-color: var(--some-text-background-color);
+	border: none;
+	color: var(--main-text-color);
+	padding: 0.25em 0.25em;
+	margin: 0.25em 0.25em;
+	border-radius: 0.5em;
+	max-width: 90%;
+}
+
+.model_input {
+	font-family: monospace;
+}
+
+
 .featurette-heading {
 	font-size: 30px;
 	margin-top: 10px;
@@ -129,9 +157,11 @@ body {
 .featurette>p,
 .featurette>ul,
 .featurette>ol,
+.featurette>button,
 ul,
 ol,
-p {
+p,
+button {
 	font-size: 18px;
 }
 
@@ -234,10 +264,12 @@ footer {
 	.featurette>ul,
 	.featurette>ol,
 	.featurette>p,
+	.featurette>button,
 	h4,
 	ul,
 	ol,
-	p {
+	p,
+	button {
 		font-size: 16px;
 	}
 
@@ -275,10 +307,12 @@ footer {
 	.featurette>p,
 	.featurette>ul,
 	.featurette>ol,
+	.featurette>button,
 	h4,
 	ul,
 	ol,
-	p {
+	p,
+	button {
 		font-size: 16px;
 	}
 
@@ -334,10 +368,12 @@ footer {
 	.featurette>p,
 	.featurette>ul,
 	.featurette>ol,
+	.featurette>button,
 	h4,
 	ul,
 	ol,
-	p {
+	p,
+	button {
 		font-size: 16px;
 	}
 
@@ -430,10 +466,12 @@ footer {
 	.featurette>p,
 	.featurette>ul,
 	.featurette>ol,
+	.featurette>button,
 	ul,
 	ol,
 	h4,
-	p {
+	p,
+	button {
 		font-size: 16px;
 	}
 
