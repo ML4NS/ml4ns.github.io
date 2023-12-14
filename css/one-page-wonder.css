@@ -412,6 +412,10 @@ footer {
 		height: 1.5em;
 	}
 
+	.progress {
+		width: 90%;
+	}
+
 
 }
 
