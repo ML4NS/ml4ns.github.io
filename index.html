@@ -755,38 +755,48 @@
           </li>
           <li>On Windows open Anaconda Prompt and on Mac/Linux open Terminal.</li>
           <li>To create an environment for the course, run:
-            <pre><code class="lang-shell">conda create -n ml4ns python=<span class="hljs-number">3.11.5</span>
+            <pre><code class="language-shell">conda create -n ml4ns python=3.11.5
         </code></pre>
           </li>
           <li>Download the GitHub repo and place the <code>requirements.txt</code> file in your root directory.</li>
           <li>Activate your environment:
-            <pre><code class="lang-shell">conda <span class="hljs-built_in">activate</span> ml4ns
+            <pre><code class="language-shell">conda activate ml4ns
         </code></pre>
           </li>
           <li>Install the requirements:
-            <pre><code class="lang-shell">pip <span class="hljs-keyword">install</span> -r requirements.txt
+            <pre><code class="language-shell">pip install -r requirements.txt
         </code></pre>
           </li>
           <li>If you're on Mac or Windows (without a GPU), you can install Pytorch using the below. If you have a
             GPU, you can install Pytorch using the command on the <a href="https://pytorch.org/" target="_blank">Pytorch
               website</a>.
-            <pre><code class="lang-shell">pip3 <span class="hljs-keyword">install</span> torch torchvision torchaudio
+            <pre><code class="language-shell">pip3 install torch torchvision torchaudio
         </code></pre>
           </li>
           <li>Install Transformers using:
-            <pre><code class="lang-shell">pip <span class="hljs-keyword">install</span> transformers
+            <pre><code class="language-shell">pip install transformers
         </code></pre>
           </li>
           <li><em>Recommended</em>: Install VScode <a href="https://code.visualstudio.com/download"
               target="_blank">here</a>.</li>
           <li>Open VSCode and open the Jupyter Notebook files or open Jupyter Lab using:
-            <pre><code class="lang-shell"><span class="hljs-attribute">jupyter lab</span>
+            <pre><code class="language-shell">jupyter lab
         </code></pre>
           </li>
           <li>If you are using VSCode, you need to install the Jupyter Notebook extension.</li>
           <li>In VScode, select the Python interpreter for your environment (top right, usually!).</li>
+          <li>
+            If everything has worked then in the Python environment you should be able to run:
+            <pre><code class="language-python">
+              import torch
+            </code></pre>
+            Then:
+            <pre><code class="language-python">
+              torch.cuda.is_available()
+            </code></pre>
+            And if you have a GPU, you should see <code>True</code>, otherwise <code>False</code>.
+          </li>
         </ol>
-        <p><br /></p>
         <p>Each session:</p>
         <ul>
           <li>
@@ -868,6 +878,9 @@
   <!-- JavaScript -->
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/bootstrap.js"></script>
+  <link href="css/github-light-dark.css" rel="stylesheet">
+  <script src="js/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
 </body>
 

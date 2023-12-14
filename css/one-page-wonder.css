@@ -136,12 +136,6 @@ p {
 }
 
 
-.lang-shell {
-	font-family: monospace;
-	margin: 0 0;
-	padding: 0 0;
-}
-
 .github-icon-container {
 	word-wrap: nowrap;
 	display: inline-block;
