@@ -153,18 +153,9 @@ textarea {
 	margin-top: 10px;
 }
 
-.featurette>h4,
-.featurette>p,
-.featurette>ul,
-.featurette>ol,
-.featurette>button,
-ul,
-ol,
-p,
-button {
+.featurette {
 	font-size: 18px;
 }
-
 
 .github-icon-container {
 	word-wrap: nowrap;
@@ -220,6 +211,11 @@ tr:nth-child(odd) {
 	background-color: var(--table-tile-colour);
 }
 
+.schedule-table>ul {
+	list-style-type: none;
+	padding: 0em;
+}
+
 caption {
 	font-size: 16px;
 	font-weight: bold;
@@ -260,16 +256,8 @@ footer {
 		font-size: 27px;
 	}
 
-	.featurette>h4,
-	.featurette>ul,
-	.featurette>ol,
-	.featurette>p,
-	.featurette>button,
-	h4,
-	ul,
-	ol,
-	p,
-	button {
+
+	.featurette {
 		font-size: 16px;
 	}
 
@@ -303,16 +291,7 @@ footer {
 		font-size: 21px;
 	}
 
-	.featurette>h4,
-	.featurette>p,
-	.featurette>ul,
-	.featurette>ol,
-	.featurette>button,
-	h4,
-	ul,
-	ol,
-	p,
-	button {
+	.featurette {
 		font-size: 16px;
 	}
 
@@ -364,16 +343,7 @@ footer {
 		font-size: 21px;
 	}
 
-	.featurette>h4,
-	.featurette>p,
-	.featurette>ul,
-	.featurette>ol,
-	.featurette>button,
-	h4,
-	ul,
-	ol,
-	p,
-	button {
+	.featurette {
 		font-size: 16px;
 	}
 
@@ -466,16 +436,7 @@ footer {
 		font-size: 18px;
 	}
 
-	.featurette>h4,
-	.featurette>p,
-	.featurette>ul,
-	.featurette>ol,
-	.featurette>button,
-	ul,
-	ol,
-	h4,
-	p,
-	button {
+	.featurette {
 		font-size: 16px;
 	}
 
