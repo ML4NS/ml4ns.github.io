@@ -29,6 +29,7 @@
   --github-icon-path: url("../assets/github-mark.svg");
   --colab-icon-path: url("../assets/colab-icon.svg");
   --some-text-background-color: #eef1f5;
+  --invert: 0%;
 }
 
 [data-theme="dark"] {
@@ -51,6 +52,7 @@
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark-white.svg");
   --some-text-background-color: #0d1117;
+  --invert: 100%;
 }
 
 
