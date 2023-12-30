@@ -27,6 +27,7 @@
   --text-link-hover-focus-colour: #2a6496;
   --text-font-size: 21px;
   --github-icon-path: url("../assets/github-mark.svg");
+  --colab-icon-path: url("../assets/colab-icon.svg");
   --some-text-background-color: #eef1f5;
 }
 

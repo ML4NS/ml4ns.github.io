@@ -170,6 +170,7 @@ textarea {
 	align-items: center;
 }
 
+
 .schedule-container {
 	margin-top: 2em;
 	width: 100%;
@@ -214,6 +215,27 @@ tr:nth-child(odd) {
 .schedule-table>ul {
 	list-style-type: none;
 	padding: 0em;
+}
+
+.table-files-link {
+	font-size: 24px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.colab-icon-container {
+	word-wrap: nowrap;
+	display: inline-block;
+}
+
+.colab-icon {
+	content: var(--colab-icon-path);
+	height: 1.5em;
+	width: 1.5em;
+	display: inline-block;
+	align-items: center;
+	vertical-align: middle;
 }
 
 caption {
@@ -315,6 +337,11 @@ footer {
 		font-size: 14px;
 	}
 
+	.table-files-link {
+		font-size: 18px;
+	}
+
+
 
 	caption {
 		font-size: 16px;
@@ -376,6 +403,10 @@ footer {
 		font-size: 11px;
 	}
 
+	.table-files-link {
+		font-size: 16px;
+	}
+
 
 
 	.brand-logo-image {
@@ -397,6 +428,10 @@ footer {
 	th,
 	tr {
 		font-size: 10px;
+	}
+
+	.table-files-link {
+		font-size: 14px;
 	}
 
 
@@ -473,6 +508,10 @@ footer {
 	th,
 	tr {
 		font-size: 9px;
+	}
+
+	.table-files-link {
+		font-size: 12px;
 	}
 
 

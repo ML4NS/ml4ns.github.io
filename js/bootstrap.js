@@ -2128,6 +2128,31 @@ update_notebook_links = function () {
   };
 };
 
+update_table_notebook_links = function () {
+  /**
+  * Changes notebook class elements to include link to open in colab.
+  */
+  var anchors = document.getElementsByClassName("notebook-link-table");
+
+  for (var i = 0; i < anchors.length; i++) {
+
+    const colab_link = document.createElement("a")
+
+    colab_link.href = "https://colab.research.google.com/github/" + anchors[i].href.replace("https://github.com/", "");
+    colab_link.target = "_blank";
+    colab_link.classList.add("colab-icon-container");
+
+    const colab_img = document.createElement("img");
+    colab_img.classList.add("colab-icon");
+    colab_img.alt = "Open In Colab";
+    colab_link.appendChild(colab_img);
+
+    const text = document.createTextNode(' | ')
+
+    anchors[i].parentNode.insertBefore(text, anchors[i].nextSibling);
+    anchors[i].parentNode.insertBefore(colab_link, text.nextSibling);
+  };
+};
 /**
 * Closes the navbar on click of an item.
 */
@@ -2141,4 +2166,5 @@ $('.navbar-collapse a').click(function () {
 window.onload = function () {
   /* onload code */
   update_notebook_links();
+  update_table_notebook_links();
 };
